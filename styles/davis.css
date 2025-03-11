@@ -1,0 +1,95 @@
+@import url("/styles/index.css");
+
+
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+header a img {
+    width: 80px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+main {
+    padding: 2.5rem 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(to right, #1061ac, #c4ced4);
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.container h1 {
+    font-size: 4rem;
+}
+
+.container p {
+    text-align: justify;
+}
+
+.container img {
+    width: 100%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar img {
+    width: 200px;
+}
+
+.sidebar hr {
+    width: 100%;
+    border: 1px solid white;
+}
+
+.sidebar .logos {
+    display: flex;
+    gap: 10px;
+}
+
+.sidebar .logos img {
+    width: 50px;
+}
+
+.sidebar .stats {
+    display: flex;
+    gap: 3px;
+    text-align: center;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.sidebar .awards {
+    text-align: center;
+}

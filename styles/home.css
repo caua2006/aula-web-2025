@@ -1,0 +1,75 @@
+@import url("/styles/index.css");
+
+body {
+    
+    background: linear-gradient(to right, #1d428a, #c8102e);
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2d3748;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+header a img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (min-width: 768px) {
+    main {
+        padding: 10px 100px;
+    }
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+p2 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid white;
+}
